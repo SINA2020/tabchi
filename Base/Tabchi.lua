@@ -5,9 +5,9 @@
 ------------------------
 redis = (loadfile "Data/redis.lua")()
 redis = redis.connect('127.0.0.1', 6379)
-botapi = 488610809
-channel_id = -1001135894458
-channel_user = "@BG_TeaM"
+botapi = 478729619
+channel_id = -1001072987509
+channel_user = "@nice20team"
 local BOT = 1
 function dl_cb(arg, data)
 end
@@ -15,7 +15,7 @@ end
 	if redis:get('bibak'..BOT..'adminset') then
 		return true
 	else
-    	print("\n\27[36m                      @BG_Team \n >> Admin UserID :\n\27[31m                 ")
+    	print("\n\27[36m                      @nice20team \n >> Admin UserID :\n\27[31m                 ")
     	local admin=io.read()
 		redis:del("bibak"..BOT.."admin")
     	redis:sadd("bibak"..BOT.."admin", admin)
