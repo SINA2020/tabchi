@@ -620,9 +620,9 @@ local keyboard = {}
     local keyboard = {}
     keyboard.inline_keyboard = {
          {
-				 {text = '• کانال ما', url = 'https://t.me/BG_TeaM'}
+				 {text = '• کانال ما', url = 'https://t.me/nice20team'}
                 },{
-                   {text = '• نویسنده سورس', url = 'https://t.me/aa_Bibak'}
+                   {text = '• نویسنده سورس', url = 'https://t.me/again20nice'}
 				   }
 							}
         sendmsg(m.chat.id, "• هلپر هم اکون انلاین میباشد !", keyboard, true)
